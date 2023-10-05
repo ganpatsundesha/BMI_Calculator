@@ -1,0 +1,36 @@
+body {
+    background: #414141;
+    color: #ffffff;
+}
+p {
+    font-size: 18px;
+}
+.form-box {
+    margin: 16px 0;
+}
+.form-box input {
+    margin-left: 8px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+label {
+    font-size: 18px;
+}
+input[type="submit"]{
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+h5 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+p {
+    color: #aaa;
+}
+#results,#guide {
+    font-size: 20px;
+    margin: 12px 0;
+    color: yellow;
+}
