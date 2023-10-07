@@ -23,12 +23,15 @@ form.addEventListener("submit", function(e){
         results.innerHTML = `Your BMI Number is ${bmi}`
         if ( bmi < 18.6) {
             resultsGuide.innerHTML = `You are Under Weight`
+            resultsGuide.style.color = "red"
         }
         else if ( bmi > 24.9) {
-            resultsGuide.innerHTML = `You Weight is height`
+            resultsGuide.innerHTML = `You Weight is too height`
+            resultsGuide.style.color = "red"
         }
         else {
             resultsGuide.innerHTML = `You body is Normal as apr BMI Index`
+            resultsGuide.style.color = "green"
         }
     }
 })
